@@ -18,44 +18,64 @@
     <script src="https://kit.fontawesome.com/9846627988.js" crossorigin="anonymous"></script>
 </head>
 
-<body class="w-full bg-offWhite font-IBMserif text-offBlack">
+<body class="w-full bg-offWhite text-offBlack">
 
-    <section class="h-screen w-full bg-lightParasol flex flex-col justify-center items-center">
-        <img src="./assets/img/logo/parasol-logo-white.svg" class="laptop:w-1/2 w-3/4" alt="parasol furniture gallery logo">
-        <a href="#main"><img src="./assets/icons/arrow-down-white.svg" alt="arrow down / go main" class="laptop:w-20 w-12 mt-32 duration-500 hover:translate-y-2"></a>
+    <section class="flex flex-col items-center justify-center w-full h-screen bg-lightParasol">
+        <img src="./assets/img/logo/parasol-logo-white.svg" class="w-3/4 laptop:w-1/2" alt="parasol furniture gallery logo">
+        <a href="#main"><img src="./assets/icons/arrow-down-white.svg" alt="arrow down / go main" class="w-12 mt-32 duration-500 laptop:w-20 hover:translate-y-2"></a>
     </section>
 
-    <main id="main" class="grid grid-cols-5 gap-0 laptop:grid-cols-6">
+    <main id="main" class="grid grid-cols-1 gap-0 laptop:grid-cols-6">
 
         <!-- SIDEBAR -->
-        <nav class="h-screen top-0 sticky hidden w-full font-Manrope laptop:flex flex-col items-start justify-evenly flex-wrap bg-midParasol grid-cols-1">
+        <nav class="sticky top-0 flex-col flex-wrap items-start justify-around hidden w-full h-screen grid-cols-1 col-span-1 font-Manrope laptop:flex bg-midParasol">
             <img src="./assets/img/logo/parasol-logo-white.svg" class="px-6" alt="parasol furniture gallery logo">
-            <ul class="text-2xl space-y-8 w-full font-semibold">
-                <li class="w-full"><a class="px-6 block py-3 duration-500 hover:bg-offWhite w-full hover:text-darkParasol text-offWhite">HOME</a></li>
-                <li class="w-full"><a class="px-6 block py-3 duration-500 hover:bg-offWhite w-full hover:text-darkParasol text-offWhite">ABOUT US</a></li>
-                <li class="w-full"><a class="px-6 block py-3 duration-500 hover:bg-offWhite w-full hover:text-darkParasol text-offWhite">WHAT WE DO</a></li>
-                <li class="w-full"><a class="px-6 block py-3 duration-500 hover:bg-offWhite w-full hover:text-darkParasol text-offWhite">GALLERY</a></li>
-                <li class="w-full"><a class="px-6 block py-3 duration-500 hover:bg-offWhite w-full hover:text-darkParasol text-offWhite">CONTACT</a></li>
+            <ul class="w-full space-y-3 text-xl font-semibold">
+                <li class="w-full"><a href="#" class="block w-full px-6 py-3 duration-500 hover:bg-offWhite hover:text-darkParasol text-offWhite focus:bg-white focus:text-offBlack">HOME</a></li>
+                <li class="w-full"><a class="block w-full px-6 py-3 duration-500 hover:bg-offWhite hover:text-darkParasol text-offWhite focus:bg-white focus:text-offBlack">ABOUT US</a></li>
+                <li class="w-full"><a class="block w-full px-6 py-3 duration-500 hover:bg-offWhite hover:text-darkParasol text-offWhite focus:bg-white focus:text-offBlack">PRODUCTS</a></li>
+                <li class="w-full"><a class="block w-full px-6 py-3 duration-500 hover:bg-offWhite hover:text-darkParasol text-offWhite focus:bg-white focus:text-offBlack">GALLERY</a></li>
+                <li class="w-full"><a class="block w-full px-6 py-3 duration-500 hover:bg-offWhite hover:text-darkParasol text-offWhite focus:bg-white focus:text-offBlack">CONTACT US</a></li>
             </ul>
 
             <!-- SOCIAL -->
-            <div class="px-10 flex flex-row justify-between w-full">
-                <a href="https://www.facebook.com/RicardosMilosDance"><i class="hover:text-vividBeige hover:-translate-y-1 duration-500 fa-brands text-3xl fa-square-facebook text-offWhite"></i></a>
-                <a href="https://www.facebook.com/RicardosMilosDance"><i class="hover:text-vividBeige hover:-translate-y-1 duration-500 fa-brands text-3xl fa-square-instagram text-offWhite"></i></a>
-                <a href="https://www.facebook.com/RicardosMilosDance"><i class="hover:text-vividBeige hover:-translate-y-1 duration-500 fa-brands text-3xl fa-tiktok text-offWhite"></i></a>
-                <a href="https://www.facebook.com/RicardosMilosDance"><i class="hover:text-vividBeige hover:-translate-y-1 duration-500 fa-brands text-3xl fa-whatsapp text-offWhite"></i></a>
+            <div class="flex flex-row justify-between w-full px-6">
+                <a href="https://www.facebook.com/RicardosMilosDance"><i class="text-3xl duration-500 hover:text-vividBeige hover:-translate-y-1 fa-brands fa-square-facebook text-offWhite"></i></a>
+                <a href="https://www.facebook.com/RicardosMilosDance"><i class="text-3xl duration-500 hover:text-vividBeige hover:-translate-y-1 fa-brands fa-square-instagram text-offWhite"></i></a>
+                <a href="https://www.facebook.com/RicardosMilosDance"><i class="text-3xl duration-500 hover:text-vividBeige hover:-translate-y-1 fa-brands fa-tiktok text-offWhite"></i></a>
+                <a href="https://www.facebook.com/RicardosMilosDance"><i class="text-3xl duration-500 hover:text-vividBeige hover:-translate-y-1 fa-brands fa-whatsapp text-offWhite"></i></a>
             </div>
             <!-- END OF SOCIAL -->
 
-            <div class="text-offWhite px-6">
+            <div class="px-6 text-offWhite">
                 <p class="text-sm">calle Lorem, ipsum.</p>
                 <p class="text-sm">Los Cabos, MX</p>
                 <p class="text-sm">1232-456-7894</p>
-                <p class="text-xl pt-3">parasol@gmail.com</p>
+                <p class="pt-3 text-xl">parasol@gmail.com</p>
             </div>
         </nav>
         <!-- END SIDEBAR -->
 
+        <section class="w-full col-span-5 px-40 py-20">
+            <div class="mb-8">
+                <h1 class="mb-2 text-5xl font-DMserif">Lorem, ipsum dolor.</h1>
+                <h2 class="font-IBMserif">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corrupti, expedita!</h2>
+            </div>
+            <div>
+                <img src="https://plus.unsplash.com/premium_photo-1661963542944-0d1fc8e66f83?q=80&w=2030&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="photo test" class="rounded-lg">
+
+                <h3 class="my-8 text-3xl font-bold font-Manrope">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui, sunt.</h3>
+                <p class="mb-4 text-lg font-IBMserif">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ea sed vitae eaque ab deleniti mollitia perspiciatis dolor animi deserunt dolorem beatae fugit quo, velit quisquam libero rerum veritatis quam incidunt?</p>
+                <p class="mb-4 text-lg font-IBMserif">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ea sed vitae eaque ab deleniti mollitia perspiciatis dolor animi deserunt dolorem beatae fugit quo, velit quisquam libero rerum veritatis quam incidunt?</p>
+            </div>
+            <div class="grid grid-cols-4">
+                <img src="https://plus.unsplash.com/premium_photo-1661963542944-0d1fc8e66f83?q=80&w=2030&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" class="col-span-2 rounded-lg">
+
+                <div class="col-span-2 p-8 mx-4 text-3xl italic rounded-lg font-DMserif bg-vividBeige">"Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore sapiente dolores non architecto blanditiis voluptatem."
+                    <p class="py-12 text-xl font-IBMserif">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptates porro perferendis nihil.</p>
+                </div>
+            </div>
+        </section>
     </main>
 
 </body>
