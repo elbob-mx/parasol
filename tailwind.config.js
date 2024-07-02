@@ -26,8 +26,9 @@ module.exports = {
             colors: {
                 offBlack: "#181818",
                 offWhite: "#F2F2F2",
-                darkParasol: "#001212",
-                midParasol: "#2B5D68",
+                darkParasol: "#1B3644",
+                midParasol: "#20535F",
+                tealParasol: "#088484",
                 lightParasol: "#7DBBB8",
                 lighterParasol: "#C5D7D9",
                 darkBeige: "#DCD8CF",
