@@ -755,6 +755,14 @@ video {
   width: 10rem;
 }
 
+.w-24 {
+  width: 6rem;
+}
+
+.w-28 {
+  width: 7rem;
+}
+
 .min-w-max {
   min-width: -moz-max-content;
   min-width: max-content;
@@ -1484,6 +1492,10 @@ video {
 
   .laptop\:w-52 {
     width: 13rem;
+  }
+
+  .laptop\:w-32 {
+    width: 8rem;
   }
 
   .laptop\:grid-cols-4 {
