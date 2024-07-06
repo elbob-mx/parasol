@@ -22,6 +22,7 @@ module.exports = {
                 Manrope: "Manrope, sans-serif",
                 DMserif: "DM Serif Display, serif",
                 IBMserif: "IBM Plex Serif, serif",
+                Lora: "Lora, serif",
             },
             colors: {
                 offBlack: "#181818",
