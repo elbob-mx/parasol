@@ -21,7 +21,7 @@
 <body class="w-full bg-offWhite text-offBlack">
 
     <!-- MOBILE MENU -->
-    <div id="ham" class="fixed z-50 flex flex-col items-start justify-center hidden w-full h-screen overflow-x-hidden overflow-y-hidden text-3xl tracking-wide duration-500 bg-tealParasol text-offWhite laptop:hidden">
+    <div id="ham" class="fixed z-50 flex flex-col items-start justify-center hidden w-full h-screen overflow-x-hidden overflow-y-hidden text-3xl tracking-wide duration-500 bg-tealParasol text-offWhite hd:hidden">
         <div class="flex flex-col">
             <ul class="ml-6 space-y-6 font-semibold duration-300 font-Manrope">
                 <li class="duration-500 hover:text-darkParasol"><a href="../index.html" aria-label="inicio">HOME</a></li>
@@ -46,21 +46,21 @@
     <!-- END MOBILE MENU -->
 
     <!-- MOBILE NAVBAR -->
-    <nav class="sticky top-0 z-40 w-full px-6 py-5 bg-tealParasol laptop:hidden">
-        <div class="flex items-center justify-between laptop:justify-between">
+    <nav class="sticky top-0 z-40 w-full px-6 py-5 bg-tealParasol hd:hidden">
+        <div class="flex items-center justify-between hd:justify-between">
             <a href="#"><img src="../assets/img/logo/parasol-logo-white.svg" alt="logo Empáticamente" class="w-32"></a>
 
-            <div id="hamBtn" class="flex flex-row p-0 align-middle duration-300 rounded-sm cursor-pointer laptop:hidden right-3 top-6" title="mobile menu">
+            <div id="hamBtn" class="flex flex-row p-0 align-middle duration-300 rounded-sm cursor-pointer hd:hidden right-3 top-6" title="mobile menu">
                 <i onclick="Open(this)" class="text-2xl tablet:text-3xl fas fa-bars text-offWhite"></i>
             </div>
         </div>
     </nav>
     <!-- END MOBILE NAVBAR -->
 
-    <main id="main" class="grid grid-cols-1 gap-0 laptop:grid-cols-8">
+    <main id="main" class="grid grid-cols-1 gap-0 hd:grid-cols-8">
 
         <!-- SIDEBAR -->
-        <nav class="sticky top-0 flex-col flex-wrap items-start justify-around hidden w-full h-screen grid-cols-1 col-span-1 font-Manrope laptop:flex bg-midParasol">
+        <nav class="sticky top-0 flex-col flex-wrap items-start justify-around hidden w-full h-screen grid-cols-1 col-span-1 font-Manrope hd:flex bg-midParasol">
             <img src="../assets/img/logo/parasol-logo-white.svg" class="px-6" alt="parasol furniture gallery logo">
             <ul class="w-full space-y-3 text-xl font-semibold">
                 <li class="w-full"><a href="../index.html" class="block w-full px-6 py-3 duration-500 hover:bg-offWhite hover:text-darkParasol text-offWhite focus:bg-white focus:text-offBlack">HOME</a></li>
@@ -99,18 +99,18 @@
         <!-- END SIDEBAR -->
 
         <!-- PRODUCTS / CATEGORIES -->
-        <section class="w-full col-span-1 laptop:col-span-7">
+        <section class="w-full col-span-1 hd:col-span-7">
             <!-- HEADLINE -->
-            <div class="py-6 laptop:py-10 laptop:px-10">
-                <h1 class="w-full px-4 pt-8 text-4xl laptop:px-0 font-DMserif laptop:text-7xl">Looking for that <span class="font-bold text-tealParasol font-Manrope">special</span> something?</h1>
-                <h1 class="w-full px-4 pt-2 pb-4 text-lg text-gray-500 laptop:text-2xl laptop:pt-2 laptop:pl-0 font-Manrope">please, scroll down and take a look:</h1>
+            <div class="py-6 hd:py-10 hd:px-10">
+                <h1 class="w-full px-4 pt-8 text-4xl hd:px-0 font-DMserif hd:text-7xl">Looking for that <span class="font-bold text-tealParasol font-Manrope">special</span> something?</h1>
+                <h1 class="w-full px-4 pt-2 pb-4 text-lg text-gray-500 hd:text-2xl hd:pt-2 hd:pl-0 font-Manrope">please, scroll down and take a look:</h1>
             </div>
             <!-- END HEADLINE -->
 
             <!-- LIVING ROOM -->
             <div class="relative">
                 <a href="#" class="group">
-                    <p class="absolute w-full p-4 text-2xl font-semibold duration-500 h-fit bg-offBlack/70 laptop:p-10 text-offWhite group-hover:z-50 group-hover:h-full laptop:text-5xl font-Manrope group-hover:pt-[250px]">LIVING ROOM ></p>
+                    <p class="absolute w-full p-4 text-2xl font-semibold duration-500 h-fit bg-offBlack/70 hd:p-10 text-offWhite group-hover:z-50 group-hover:h-full hd:text-5xl font-Manrope group-hover:pt-[250px]">LIVING ROOM ></p>
                     <img src="https://images.unsplash.com/photo-1489171078254-c3365d6e359f?q=80&w=1931&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="exteriors banner" class="object-cover group-hover:duration-500 group-hover:brightness-50">
                 </a>
             </div>
@@ -119,7 +119,7 @@
             <!-- EXTERIORS -->
             <div class="relative">
                 <a href="#">
-                    <p class="absolute w-full p-4 text-2xl font-semibold duration-500 h-fit bg-offBlack/70 laptop:p-10 text-offWhite hover:bg-offBlack/85 laptop:text-5xl font-Manrope">EXTERIORS ></p>
+                    <p class="absolute w-full p-4 text-2xl font-semibold duration-500 h-fit bg-offBlack/70 hd:p-10 text-offWhite hover:bg-offBlack/85 hd:text-5xl font-Manrope">EXTERIORS ></p>
                     <img src="https://images.unsplash.com/photo-1602774895619-4b702326992c?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="exteriors banner" class="object-cover">
                 </a>
             </div>
@@ -129,15 +129,15 @@
 
     </main>
 
-    <footer class="bottom-0 flex flex-col items-center justify-center w-full px-8 py-10 text-center laptop:text-left laptop:py-8 bg-darkParasol">
-        <a href="#"><img src="../assets/img/logo/parasol-logo-white.svg" alt="logo parasol furniture gallery" class="w-40 py-6 laptop:w-52 laptop:py-4"></a>
+    <footer class="bottom-0 flex flex-col items-center justify-center w-full px-8 py-10 text-center hd:text-left hd:py-8 bg-darkParasol">
+        <a href="#"><img src="../assets/img/logo/parasol-logo-white.svg" alt="logo parasol furniture gallery" class="w-40 py-6 hd:w-52 hd:py-4"></a>
         <!-- SITEMAP -->
-        <ul class="flex flex-col justify-end py-8 space-y-2 laptop:space-y-0 laptop:space-x-12 laptop:flex-row laptop:p-14 font-Manrope">
-            <li><a href="../index.html" class="font-semibold duration-500 laptop:text-lg hover:text-lightParasol text-offWhite">HOME</a></li>
-            <li><a href="#" class="font-semibold duration-500 laptop:text-lg hover:text-lightParasol text-offWhite">ABOUT US</a></li>
-            <li><a href="#" class="font-semibold duration-500 laptop:text-lg hover:text-lightParasol text-offWhite">PRODUCTS</a></li>
-            <li><a href="#" class="font-semibold duration-500 laptop:text-lg hover:text-lightParasol text-offWhite">GALLERY</a></li>
-            <li><a href="#" class="font-semibold duration-500 laptop:text-lg hover:text-lightParasol text-offWhite">CONTACT US</a></li>
+        <ul class="flex flex-col justify-end py-8 space-y-2 hd:space-y-0 hd:space-x-12 hd:flex-row hd:p-14 font-Manrope">
+            <li><a href="../index.html" class="font-semibold duration-500 hd:text-lg hover:text-lightParasol text-offWhite">HOME</a></li>
+            <li><a href="#" class="font-semibold duration-500 hd:text-lg hover:text-lightParasol text-offWhite">ABOUT US</a></li>
+            <li><a href="#" class="font-semibold duration-500 hd:text-lg hover:text-lightParasol text-offWhite">PRODUCTS</a></li>
+            <li><a href="#" class="font-semibold duration-500 hd:text-lg hover:text-lightParasol text-offWhite">GALLERY</a></li>
+            <li><a href="#" class="font-semibold duration-500 hd:text-lg hover:text-lightParasol text-offWhite">CONTACT US</a></li>
         </ul>
         <!-- END SITEMAP -->
 
@@ -147,7 +147,7 @@
 
         <a href="https://elbob-mx.github.io/website-webbygravy/">
             <div class="flex flex-col items-center w-full">
-                <p class="pt-6 pb-6 text-xs text-center text-gray-400 font-Manrope">Creado por: <img src="../assets/img/logo/webbyGravy-logo.svg" alt="logo webbyGravy" class="pt-3 duration-500 laptop:w-32 w-28 hover:translate-x-2"></p>
+                <p class="pt-6 pb-6 text-xs text-center text-gray-400 font-Manrope">Creado por: <img src="../assets/img/logo/webbyGravy-logo.svg" alt="logo webbyGravy" class="pt-3 duration-500 hd:w-32 w-28 hover:translate-x-2"></p>
             </div>
         </a>
     </footer>
