@@ -1,14 +1,13 @@
-let ham = document.getElementById("ham");
+let mobileMenu = document.getElementById("mobileMenu");
 
-function Open() {
+function openMobileMenu() {
     hamBtn.classList.add("hidden");
-    ham.classList.add("duration-500");
-    ham.classList.remove("hidden");
+    mobileMenu.classList.remove("hidden");
     closeBtn.classList.remove("hidden");
 }
 
-function Close() {
+function closeMobileMenu(event) {
     hamBtn.classList.remove("hidden");
-    ham.classList.add("hidden");
+    mobileMenu.classList.add("hidden");
     closeBtn.classList.add("hidden");
 }
