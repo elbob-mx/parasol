@@ -672,6 +672,10 @@ video {
   margin-top: 5rem;
 }
 
+.mt-10 {
+  margin-top: 2.5rem;
+}
+
 .block {
   display: block;
 }
@@ -770,6 +774,18 @@ video {
 
 .gap-3 {
   gap: 0.75rem;
+}
+
+.gap-4 {
+  gap: 1rem;
+}
+
+.gap-8 {
+  gap: 2rem;
+}
+
+.gap-6 {
+  gap: 1.5rem;
 }
 
 .space-x-10 > :not([hidden]) ~ :not([hidden]) {
@@ -1261,27 +1277,80 @@ video {
     right: 1.5rem;
   }
 
+  .tablet\:col-span-1 {
+    grid-column: span 1 / span 1;
+  }
+
   .tablet\:col-span-2 {
     grid-column: span 2 / span 2;
+  }
+
+  .tablet\:mb-0 {
+    margin-bottom: 0px;
+  }
+
+  .tablet\:grid-cols-2 {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .tablet\:gap-6 {
+    gap: 1.5rem;
+  }
+
+  .tablet\:gap-4 {
+    gap: 1rem;
   }
 
   .tablet\:text-3xl {
     font-size: 1.875rem;
     line-height: 2.25rem;
   }
+
+  .tablet\:text-5xl {
+    font-size: 3rem;
+    line-height: 1;
+  }
+}
+
+@media (min-width: 811px) {
+  .bigHor\:gap-6 {
+    gap: 1.5rem;
+  }
+
+  .bigHor\:gap-0 {
+    gap: 0px;
+  }
+}
+
+@media (min-width: 844px) {
+  .bigPhoneHor\:gap-4 {
+    gap: 1rem;
+  }
 }
 
 @media (min-width: 1023px) {
-  .ipad\:col-span-2 {
-    grid-column: span 2 / span 2;
+  .ipad\:col-span-1 {
+    grid-column: span 1 / span 1;
   }
 
   .ipad\:col-span-4 {
     grid-column: span 4 / span 4;
   }
 
+  .ipad\:col-span-2 {
+    grid-column: span 2 / span 2;
+  }
+
   .ipad\:grid-cols-2 {
     grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .ipad\:grid-cols-4 {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+
+  .ipad\:gap-6 {
+    gap: 1.5rem;
   }
 
   .ipad\:text-5xl {
@@ -1395,6 +1464,10 @@ video {
 
   .hd\:gap-6 {
     gap: 1.5rem;
+  }
+
+  .hd\:gap-0 {
+    gap: 0px;
   }
 
   .hd\:space-x-12 > :not([hidden]) ~ :not([hidden]) {
