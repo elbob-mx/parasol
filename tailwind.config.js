@@ -12,7 +12,6 @@ module.exports = {
             bigHor: "811px",
             bigPhoneHor: "844px",
             vertIpadMini: "820px",
-            hd: "976px",
             ipad: "1023px",
             hd: "1365px",
             fhd: "1440px",

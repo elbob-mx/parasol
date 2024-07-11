@@ -61,7 +61,7 @@
     </nav>
     <!-- END MOBILE NAVBAR -->
 
-    <main id="main" class="grid grid-cols-1 gap-0 hd:grid-cols-8">
+    <main id="main" class="grid grid-cols-1 gap-0 hd:grid-cols-8 ipad:grid-cols-2">
 
         <!-- SIDEBAR -->
         <nav class="sticky top-0 flex-col flex-wrap items-start justify-around hidden w-full h-screen grid-cols-1 col-span-1 font-Manrope hd:flex bg-midParasol">
@@ -103,58 +103,62 @@
         <!-- END SIDEBAR -->
 
         <!-- PRODUCTS / CATEGORIES -->
-        <section class="w-full col-span-1 hd:col-span-7">
+        <section class="w-full ipad:col-span-2 hd:col-span-7">
+
             <!-- HEADLINE -->
             <div class="py-6 hd:py-10 hd:px-10">
-                <h1 class="w-full px-4 pt-8 text-4xl hd:px-0 font-DMserif hd:text-7xl">Looking for that <span class="font-bold text-tealParasol font-Manrope">special</span> something?</h1>
+                <h1 class="w-full px-4 pt-8 text-4xl hd:px-0 font-DMserif hd:text-7xl ipad:text-5xl">Looking for that <span class="font-bold text-tealParasol font-Manrope">special</span> something?</h1>
                 <h1 class="w-full px-4 pt-2 pb-4 text-lg text-gray-500 hd:text-2xl hd:pt-2 hd:pl-0 font-Manrope">Please, scroll down, click on a category and have a look:</h1>
             </div>
             <!-- END HEADLINE -->
 
-            <!-- LIVING ROOM -->
-            <div class="relative">
-                <a href="#" class="z-20 group">
-                    <p class="absolute top-0 z-10 w-full py-2 pl-4 text-2xl font-semibold duration-1000 shadow-2xl hd:pl-10 hd:py-10 hd:text-5xl group-hover:hd:py-24 group-hover:hd:bg-tealParasol group-hover:bg-tealParasol bg-darkParasol font-Manrope text-offWhite group-hover:hd:top-1/4 group-hover:hd:duration-1000">LIVING ROOM ><br><span class="hidden text-lg font-thin hd:block font-Lora">Balance comfort and style while reflecting your unique personality.</span></p>
-                    <img src="../assets/img/banners/living room/living-room-main-banner.jpg" alt="exteriors banner" class="group-hover:brightness-[0.20] duration-1000 object-cover min-w-full group-hover:duration-1000">
-                </a>
-            </div>
-            <!-- END LIVING ROOM -->
+            <!-- WHOLE CATEGORIES -->
+            <div class="grid gap-4 px-4 ipad:grid-cols-2 hd:col-span-7 hd:px-0">
+                <!-- LIVING ROOM -->
+                <div class="relative mb-8 hd:mb-0 ipad:col-span-1 hd:col-span-7">
+                    <a href="#" class="z-20 group">
+                        <p class="absolute top-0 z-10 w-full py-2 pl-4 text-2xl font-semibold duration-1000 shadow-2xl hd:rounded-t-none rounded-t-md hd:pl-10 hd:py-10 hd:text-5xl group-hover:hd:py-24 group-hover:hd:bg-tealParasol group-hover:bg-tealParasol bg-darkParasol font-Manrope text-offWhite group-hover:hd:top-1/4 group-hover:hd:duration-1000">LIVING ROOM ><br><span class="hidden text-lg font-thin hd:block font-Lora">Balance comfort and style while reflecting your unique personality.</span></p>
+                        <img src="../assets/img/banners/living room/living-room-main-banner.jpg" alt="exteriors banner" class="rounded-md hd:rounded-none group-hover:brightness-[0.20] duration-1000 object-cover min-w-full group-hover:duration-1000">
+                    </a>
+                </div>
+                <!-- END LIVING ROOM -->
 
-            <!-- EXTERIORS -->
-            <div class="relative">
-                <a href="#" class="z-20 group">
-                    <p class="absolute top-0 z-10 w-full py-2 pl-4 text-2xl font-semibold duration-1000 shadow-2xl hd:pl-10 hd:py-10 hd:text-5xl group-hover:hd:py-24 group-hover:hd:bg-tealParasol group-hover:bg-tealParasol bg-darkParasol font-Manrope text-offWhite group-hover:hd:top-1/4 group-hover:hd:duration-1000">EXTERIORS ><br><span class="hidden text-lg font-thin hd:block font-Lora">Continuity, seamless, joyful. Union of both sides in your life.</span></p>
-                    <img src="../assets/img/banners/exteriors/exteriors-main-banner.jpg" alt="exteriors banner" class="group-hover:brightness-[0.20] duration-1000 object-cover min-w-full group-hover:duration-1000">
-                </a>
-            </div>
-            <!-- END EXTERIORS -->
+                <!-- EXTERIORS -->
+                <div class="relative mb-8 hd:mb-0">
+                    <a href="#" class="z-20 group">
+                        <p class="absolute top-0 z-10 w-full py-2 pl-4 text-2xl font-semibold duration-1000 shadow-2xl hd:rounded-t-none rounded-t-md hd:pl-10 hd:py-10 hd:text-5xl group-hover:hd:py-24 group-hover:hd:bg-tealParasol group-hover:bg-tealParasol bg-darkParasol font-Manrope text-offWhite group-hover:hd:top-1/4 group-hover:hd:duration-1000">EXTERIORS ><br><span class="hidden text-lg font-thin hd:block font-Lora">Continuity, seamless, joyful. Union of both sides in your life.</span></p>
+                        <img src="../assets/img/banners/exteriors/exteriors-main-banner.jpg" alt="exteriors banner" class="rounded-md hd:rounded-none group-hover:brightness-[0.20] duration-1000 object-cover min-w-full group-hover:duration-1000">
+                    </a>
+                </div>
+                <!-- END EXTERIORS -->
 
-            <!-- BEDROOM -->
-            <div class="relative">
-                <a href="#" class="z-20 group">
-                    <p class="absolute top-0 z-10 w-full py-2 pl-4 text-2xl font-semibold duration-1000 shadow-2xl hd:pl-10 hd:py-10 hd:text-5xl group-hover:hd:py-24 group-hover:hd:bg-tealParasol group-hover:bg-tealParasol bg-darkParasol font-Manrope text-offWhite group-hover:hd:top-1/4 group-hover:hd:duration-1000">BEDROOM ><br><span class="hidden text-lg font-thin hd:block font-Lora">Meant purely for rest and renewal, the bedroom it's your starting point.</span></p>
-                    <img src="../assets/img/banners/bedroom/bedroom-main-banner.jpg" alt="exteriors banner" class="group-hover:brightness-[0.20] duration-1000 object-cover min-w-full group-hover:duration-1000">
-                </a>
-            </div>
-            <!-- END BEDROOM -->
+                <!-- BEDROOM -->
+                <div class="relative mb-8 hd:mb-0">
+                    <a href="#" class="z-20 group">
+                        <p class="absolute top-0 z-10 w-full py-2 pl-4 text-2xl font-semibold duration-1000 shadow-2xl hd:rounded-t-none rounded-t-md hd:pl-10 hd:py-10 hd:text-5xl group-hover:hd:py-24 group-hover:hd:bg-tealParasol group-hover:bg-tealParasol bg-darkParasol font-Manrope text-offWhite group-hover:hd:top-1/4 group-hover:hd:duration-1000">BEDROOM ><br><span class="hidden text-lg font-thin hd:block font-Lora">Meant purely for rest and renewal, the bedroom it's your starting point.</span></p>
+                        <img src="../assets/img/banners/bedroom/bedroom-main-banner.jpg" alt="exteriors banner" class="rounded-md hd:rounded-none group-hover:brightness-[0.20] duration-1000 object-cover min-w-full group-hover:duration-1000">
+                    </a>
+                </div>
+                <!-- END BEDROOM -->
 
-            <!-- DINING ROOM -->
-            <div class="relative">
-                <a href="#" class="z-20 group">
-                    <p class="absolute top-0 z-10 w-full py-2 pl-4 text-2xl font-semibold duration-1000 shadow-2xl hd:pl-10 hd:py-10 hd:text-5xl group-hover:hd:py-24 group-hover:hd:bg-tealParasol group-hover:bg-tealParasol bg-darkParasol font-Manrope text-offWhite group-hover:hd:top-1/4 group-hover:hd:duration-1000">DINING ROOM ><br><span class="hidden text-lg font-thin hd:block font-Lora">Provoke intrigue and lead to conversation among your guests.</span></p>
-                    <img src="../assets/img/banners/dining room/dining-room-main-banner.jpg" alt="exteriors banner" class="group-hover:brightness-[0.20] duration-1000 object-cover min-w-full group-hover:duration-1000">
-                </a>
-            </div>
-            <!-- END DINING ROOM -->
+                <!-- DINING ROOM -->
+                <div class="relative mb-8 hd:mb-0">
+                    <a href="#" class="z-20 group">
+                        <p class="absolute top-0 z-10 w-full py-2 pl-4 text-2xl font-semibold duration-1000 shadow-2xl hd:rounded-t-none rounded-t-md hd:pl-10 hd:py-10 hd:text-5xl group-hover:hd:py-24 group-hover:hd:bg-tealParasol group-hover:bg-tealParasol bg-darkParasol font-Manrope text-offWhite group-hover:hd:top-1/4 group-hover:hd:duration-1000">DINING ROOM ><br><span class="hidden text-lg font-thin hd:block font-Lora">Provoke intrigue and lead to conversation among your guests.</span></p>
+                        <img src="../assets/img/banners/dining room/dining-room-main-banner.jpg" alt="exteriors banner" class="rounded-md hd:rounded-none group-hover:brightness-[0.20] duration-1000 object-cover min-w-full group-hover:duration-1000">
+                    </a>
+                </div>
+                <!-- END DINING ROOM -->
 
-            <!-- ART -->
-            <div class="relative">
-                <a href="#" class="z-20 group">
-                    <p class="absolute top-0 z-10 w-full py-2 pl-4 text-2xl font-semibold duration-1000 shadow-2xl hd:pl-10 hd:py-10 hd:text-5xl group-hover:hd:py-24 group-hover:hd:bg-tealParasol group-hover:bg-tealParasol bg-darkParasol font-Manrope text-offWhite group-hover:hd:top-1/4 group-hover:hd:duration-1000">ART ><br><span class="hidden text-lg font-thin hd:block font-Lora">Artwork will provide depth and richness to the room, making it feel your own.</span></p>
-                    <img src="../assets/img/banners/art/art-banner.jpg" alt="exteriors banner" class="group-hover:brightness-[0.20] duration-1000 object-cover min-w-full group-hover:duration-1000">
-                </a>
+                <!-- ART -->
+                <div class="relative mb-8 hd:mb-0">
+                    <a href="#" class="z-20 group">
+                        <p class="absolute top-0 z-10 w-full py-2 pl-4 text-2xl font-semibold duration-1000 shadow-2xl hd:rounded-t-none rounded-t-md hd:pl-10 hd:py-10 hd:text-5xl group-hover:hd:py-24 group-hover:hd:bg-tealParasol group-hover:bg-tealParasol bg-darkParasol font-Manrope text-offWhite group-hover:hd:top-1/4 group-hover:hd:duration-1000">ART ><br><span class="hidden text-lg font-thin hd:block font-Lora">Artwork will provide depth and richness to the room, making it feel your own.</span></p>
+                        <img src="../assets/img/banners/art/art-banner.jpg" alt="exteriors banner" class="rounded-md hd:rounded-none group-hover:brightness-[0.20] duration-1000 object-cover min-w-full group-hover:duration-1000">
+                    </a>
+                </div>
+                <!-- END ART -->
             </div>
-            <!-- END ART -->
 
         </section>
         <!-- END PRODUCTS / CATEGORIES -->
