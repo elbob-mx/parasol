@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parasol Furniture Gallery | Interior Design Studio</title>
+    <meta name="description" content="Parasol Furniture Gallery, with it's unique style and detailed work standards, gets design in your life, for your life.">
+    <meta name="keywords" content="design, interior, decoration, detail, los cabos, mexico, detailed, high, standards, custom, made, personalized">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=IBM+Plex+Serif:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Lora:ital,wght@0,400..700;1,400..700&family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../public/style.css">
+    <script src="https://kit.fontawesome.com/9846627988.js" crossorigin="anonymous"></script>
+</head>
+
+<body class="w-full bg-offWhite text-offBlack">
+
+    <!-- FLOATING WHATSAPP -->
+    <a href="https://wa.me/16241377355?text=Hello%20Parasol!" class="hover:-translate-y-2 fixed z-40 duration-500 bg-[#128c7e] rounded-full shadow-md hd:bottom-14 hd:right-14 bottom-4 tablet:bottom-6 tablet:right-6 right-4 hover:bg-[#075E54]" target="_blank"><i class="px-4 py-[13.5px] text-4xl hd:px-5 hd:text-5xl hd:py-[18px] fa-brands fa-whatsapp text-offWhite"></i></a>
+    <!-- END FLOATING  WHATSAPP -->
+
+    <!-- MOBILE MENU -->
+    <div id="mobileMenu" class="fixed z-40 flex flex-col items-start justify-center hidden w-full h-screen overflow-x-hidden overflow-y-hidden text-3xl tracking-wide duration-500 bg-tealParasol text-offWhite hd:hidden">
+        <div class="flex flex-col">
+            <ul class="ml-6 space-y-6 font-semibold duration-300 font-Manrope">
+                <li class="duration-500 hover:text-darkParasol"><a href="../index.html" aria-label="inicio">HOME</a></li>
+                <li class="duration-500 hover:text-darkParasol"><a href="index.html" aria-label="conocenos">ABOUT US</a></li>
+                <li class="duration-500 hover:text-darkParasol"><a href="./products.html" aria-label="preguntas frecuentes">PRODUCTS</a></li>
+                <li class="duration-500 hover:text-darkParasol"><a href="./gallery.html" aria-label="blog">GALLERY</a></li>
+                <li class="duration-500 hover:text-darkParasol"><a href="index.html" aria-label="contacto">CONTACT US</a></li>
+            </ul>
+
+            <!-- CONTACT OPTIONS -->
+            <p class="mt-20 ml-6 text-xl font-semibold font-Manrope "><i class="fa-solid fa-phone text-offWhite"></i>&ensp;624-137-7355</p>
+            <a href="https://wa.me/16241377355?text=Hello%20Parasol!" target="_blank" class="mt-12 ml-6 text-xl font-semibold duration-700 font-Manrope hover:-translate-y-1" aria-label="whatsapp"><i class="duration-700 text-offWhite hover:text-[#0F5D54] fa-brands fa-whatsapp text-2xl"></i>&ensp;Let's talk on WhatsApp</a>
+        </div>
+        <!-- END CONTACT OPTIONS -->
+
+        <!-- CLOSE MOBILE MENU BUTTON -->
+        <div id="closeBtn" class="absolute z-50 text-3xl cursor-pointer top-9 right-5">
+            <i name="cerrar" onclick="closeMobileMenu(this)" class="text-4xl fa-solid fa-xmark text-offWhite"></i>
+        </div>
+        <!-- END CLOSE MOBILE MENU BUTTON -->
+    </div>
+    <!-- END MOBILE MENU -->
+
+    <!-- MOBILE NAVBAR -->
+    <nav class="sticky top-0 z-30 w-full px-6 py-5 bg-tealParasol hd:hidden">
+        <div class="flex items-center justify-between hd:justify-between">
+            <a href="#"><img src="../assets/img/logo/parasol-logo-white.svg" alt="logo Empáticamente" class="w-32"></a>
+
+            <div id="hamBtn" class="flex flex-row p-0 align-middle duration-300 rounded-sm cursor-pointer hd:hidden right-3 top-6" title="mobile menu">
+                <i onclick="openMobileMenu(this)" class="text-2xl tablet:text-3xl fas fa-bars text-offWhite"></i>
+            </div>
+        </div>
+    </nav>
+    <!-- END MOBILE NAVBAR -->
+
+    <main id="main" class="grid grid-cols-1 gap-0 hd:grid-cols-8">
+
+        <!-- SIDEBAR -->
+        <nav class="sticky top-0 flex-col flex-wrap items-start justify-around hidden w-full h-screen grid-cols-1 col-span-1 font-Manrope hd:flex bg-midParasol">
+            <img src="../assets/img/logo/parasol-logo-white.svg" class="px-6" alt="parasol furniture gallery logo">
+            <ul class="w-full space-y-3 text-xl font-semibold">
+                <li class="w-full"><a href="../index.html" class="block w-full px-6 py-3 duration-500 hover:bg-offWhite hover:text-darkParasol text-offWhite focus:bg-white focus:text-offBlack">HOME</a></li>
+                <li class="w-full"><a href="#" class="block w-full px-6 py-3 duration-500 hover:bg-offWhite hover:text-darkParasol text-offWhite focus:bg-white focus:text-offBlack">ABOUT US</a></li>
+                <li class="w-full"><a href="./products.html" class="block w-full px-6 py-3 duration-500 hover:bg-offWhite hover:text-darkParasol text-offWhite focus:bg-white focus:text-offBlack">PRODUCTS</a></li>
+                <li class="w-full"><a href="./gallery.html" class="block w-full px-6 py-3 duration-500 hover:bg-offWhite hover:text-darkParasol text-offWhite focus:bg-white focus:text-offBlack">GALLERY</a></li>
+                <li class="w-full"><a href="#" class="block w-full px-6 py-3 duration-500 hover:bg-offWhite hover:text-darkParasol text-offWhite focus:bg-white focus:text-offBlack">CONTACT US</a></li>
+            </ul>
+
+            <!-- SEARCH BAR -->
+            <!-- <div class="flex flex-col ml-6">
+                <p class="mb-1 text-offWhite">search:</p>
+                <div class="flex flex-row">
+                    <input type="text" class="w-3/4 pl-2 rounded-l-md" placeholder="type your search...">
+                    <button class="px-3 py-1 duration-300 bg-lightParasol rounded-r-md hover:bg-amber-400"><i class="fa-solid fa-magnifying-glass text-offWhite"></i></button>
+                </div>
+            </div> -->
+            <!-- END SEARCH BAR -->
+
+
+            <!-- SOCIAL -->
+            <div class="px-6 text-offWhite">
+                <div class="flex flex-row justify-between w-full mb-10">
+                    <a href="https://www.facebook.com/RicardosMilosDance"><i class="text-3xl duration-500 hover:text-amber-400 hover:-translate-y-1 fa-brands fa-square-facebook text-offWhite"></i></a>
+                    <a href="https://www.facebook.com/RicardosMilosDance"><i class="text-3xl duration-500 hover:text-amber-400 hover:-translate-y-1 fa-brands fa-instagram text-offWhite"></i></a>
+                    <a href="https://www.facebook.com/RicardosMilosDance"><i class="text-3xl duration-500 hover:text-amber-400 hover:-translate-y-1 fa-brands fa-tiktok text-offWhite"></i></a>
+                    <a href="https://wa.me/16241377355?text=Hello%20Parasol!" target="_blank"><i class="text-3xl duration-500 hover:text-amber-400 hover:-translate-y-1 fa-brands fa-whatsapp text-offWhite"></i></a>
+                </div>
+                <!-- END OF SOCIAL -->
+                <p class="text-sm">calle Lorem, ipsum.</p>
+                <p class="text-sm">Los Cabos, MX</p>
+                <p class="text-sm">1232-456-7894</p>
+                <p class="pt-3 text-xl">parasol@gmail.com</p>
+            </div>
+        </nav>
+        <!-- END SIDEBAR -->
+
+        <!-- PRODUCTS / CATEGORIES -->
+        <section class="w-full col-span-1 hd:col-span-7">
+            <!-- HEADLINE -->
+            <div class="py-6 hd:py-10 hd:px-10">
+                <h1 class="w-full px-4 pt-8 text-4xl hd:px-0 font-DMserif hd:text-7xl">It's all about <span class="font-bold text-tealParasol font-Manrope">browsing</span>!</h1>
+                <h1 class="w-full px-4 pt-2 pb-4 text-lg text-gray-500 hd:text-2xl hd:pt-2 hd:pl-0 font-Manrope">A bit of inspiration always helps.</h1>
+            </div>
+            <!-- END HEADLINE -->
+
+            <!-- GALLERY -->
+
+            <div class="px-4 py-4 hd:px-10 hd:pb-10 hd:gap-10 hd:columns-4 colums-2">
+                <img src="../assets/img/gallery/gallery-(1).jpg" alt="" class="object-cover w-full mb-4 rounded-md hd:mb-10">
+                <img src="../assets/img/gallery/gallery-(1).jpg" alt="" class="object-cover w-full mb-4 rounded-md hd:mb-10">
+                <img src="../assets/img/gallery/gallery-(12).jpg" alt="" class="object-cover w-full mb-4 rounded-md hd:mb-10">
+                <img src="../assets/img/gallery/gallery-(13).jpg" alt="" class="object-cover w-full mb-4 rounded-md hd:mb-10">
+                <img src="../assets/img/gallery/gallery-(1).jpg" alt="" class="object-cover w-full mb-4 rounded-md hd:mb-10">
+                <img src="../assets/img/gallery/gallery-(1).jpg" alt="" class="object-cover w-full mb-4 rounded-md hd:mb-10">
+                <img src="../assets/img/gallery/gallery-(12).jpg" alt="" class="object-cover w-full mb-4 rounded-md hd:mb-10">
+                <img src="../assets/img/gallery/gallery-(13).jpg" alt="" class="object-cover w-full mb-4 rounded-md hd:mb-10">
+            </div>
+
+
+        </section>
+        <!-- END GALLERY -->
+    </main>
+
+    <footer class="bottom-0 flex flex-col items-center justify-center w-full px-8 py-10 text-center hd:text-left hd:py-8 bg-darkParasol">
+        <a href="#"><img src="../assets/img/logo/parasol-logo-white.svg" alt="logo parasol furniture gallery" class="w-40 py-6 hd:w-52 hd:py-4"></a>
+        <!-- SITEMAP -->
+        <ul class="flex flex-col justify-end py-8 space-y-2 hd:space-y-0 hd:space-x-12 hd:flex-row hd:p-14 font-Manrope">
+            <li><a href="../index.html" class="font-semibold duration-500 hd:text-lg hover:text-lightParasol text-offWhite">HOME</a></li>
+            <li><a href="#" class="font-semibold duration-500 hd:text-lg hover:text-lightParasol text-offWhite">ABOUT US</a></li>
+            <li><a href="./products.html" class="font-semibold duration-500 hd:text-lg hover:text-lightParasol text-offWhite">PRODUCTS</a></li>
+            <li><a href="./gallery.html" class="font-semibold duration-500 hd:text-lg hover:text-lightParasol text-offWhite">GALLERY</a></li>
+            <li><a href="#" class="font-semibold duration-500 hd:text-lg hover:text-lightParasol text-offWhite">CONTACT US</a></li>
+        </ul>
+        <!-- END SITEMAP -->
+
+        <p class="py-3 text-lg font-Manrope text-offWhite"><i class="mr-2 text-lg fa-solid fa-phone text-lightParasol"></i>1232-456-7894</p>
+        <p class="pb-6 text-sm font-Manrope text-offWhite">Calle Parasol 1234, Los Cabos, BCS, MX.</p>
+        <p class="pb-6 text-xs text-gray-400 font-Manrope">Copyright© 2024 Parasol Furniture Gallery / Interior Design Studio. Todos los derechos reservados.</p>
+
+        <a href="https://elbob-mx.github.io/website-webbygravy/">
+            <div class="flex flex-col items-center w-full">
+                <p class="pt-6 pb-6 text-xs text-center text-gray-400 font-Manrope">Creado por: <img src="../assets/img/logo/webbyGravy-logo.svg" alt="logo webbyGravy" class="pt-3 duration-500 hd:w-32 w-28 hover:translate-x-2"></p>
+            </div>
+        </a>
+    </footer>
+
+    <!-- MOBILE MENU SCRIPT -->
+    <script src="../js/mobile-menu.js"></script>
+</body>
+
+</html>
