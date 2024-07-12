@@ -1071,6 +1071,11 @@ video {
   line-height: 1rem;
 }
 
+.text-6xl {
+  font-size: 3.75rem;
+  line-height: 1;
+}
+
 .font-bold {
   font-weight: 700;
 }
@@ -1260,6 +1265,13 @@ video {
   transition-duration: 1000ms;
 }
 
+@media (min-width: 0px) {
+  .small\:columns-2 {
+    -moz-columns: 2;
+         columns: 2;
+  }
+}
+
 @media (min-width: 767px) {
   .tablet\:bottom-6 {
     bottom: 1.5rem;
@@ -1303,6 +1315,13 @@ video {
 @media (min-width: 811px) {
   .bigHor\:gap-0 {
     gap: 0px;
+  }
+}
+
+@media (min-width: 820px) {
+  .vertIpadMini\:columns-3 {
+    -moz-columns: 3;
+         columns: 3;
   }
 }
 
