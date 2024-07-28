@@ -106,17 +106,62 @@
         <section class="w-full col-span-1 hd:col-span-7">
             <!-- HEADLINE -->
             <div class="py-6 hd:py-10 hd:px-10">
-                <h1 class="w-full px-4 pt-8 text-4xl hd:px-0 font-DMserif hd:text-7xl">It's all about <span class="text-6xl font-bold hd:text-7xl text-tealParasol font-Manrope">browsing!</span></h1>
-                <h1 class="w-full px-4 pt-2 pb-4 text-lg text-gray-500 hd:text-2xl hd:pt-2 hd:pl-0 font-Manrope">A bit of inspiration always helps.</h1>
+                <h1 class="w-full px-4 pt-8 text-4xl hd:px-0 font-DMserif hd:text-7xl">Let's keep in touch.</h1>
+                <h1 class="w-full px-4 pt-2 pb-4 text-lg text-gray-500 hd:text-2xl hd:pt-2 hd:pl-0 font-Manrope">We'll answer right away</h1>
             </div>
             <!-- END HEADLINE -->
 
-            <!-- ABOUT US -->
+            <!-- CONTACT -->
 
-            <!-- END ABOUT US -->
+            <!-- FORM -->
+            <div class="">
+                <section class="w-full h-auto px-4 py-6 mx-auto rounded-lg mobileHor:px-20 ipad:px-20 laptop:py-12 laptop:px-0 hd:py-12 hd:px-60 font-Manrope">
+                    <h2 class="text-5xl text-center laptop:pb-6 tablet:text-6xl font-barlowCon text-midParasol">Send us an email:</h2>
+                    <form method="POST" id="form" action="https://formsubmit.co/jce.li1217@gmail.com" class="self-center w-full laptop:basis-1/2 small:mb-2 laptop:mb-0 laptop:px-20 hd:px-40 tablet:px-4">
+
+                        <!-- EMAIL -->
+                        <div class="relative z-40 w-full mb-6 group">
+                            <input type="email" name="email" class="block w-full px-0 py-2 text-base font-medium duration-500 bg-transparent border-0 border-b-2 appearance-none laptop:text-xl text-darkParasol border-midParasol focus:border-midParasol focus:outline-none focus:ring-0 peer" placeholder=" " required />
+
+                            <label for="email" class="absolute small:text-base text-darkParasol duration-500 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:left-0 peer-focus:text-midParasol peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6 appearance-none">Your mail:</label>
+                        </div>
+
+                        <!-- NEXT -->
+                        <input type="hidden" name="_next" value="gracias.html" />
+
+                        <!-- NOMBRE(S) -->
+                        <div class="relative z-0 w-full mb-6 group">
+                            <input type="text" name="name" id="name" class="block w-full px-0 py-2 text-base font-medium duration-500 bg-transparent border-0 border-b-2 appearance-none laptop:text-xl text-darkParasol border-midParasol focus:border-midParasol focus:outline-none focus:ring-0 peer" placeholder="" required />
+
+                            <label for="name" class="absolute small:text-base text-darkParasol duration-500 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:left-0 peer-focus:text-midParasol peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6 appearance-none">Your name:</label>
+                        </div>
+
+                        <!-- TELÉFONO -->
+                        <div class="relative z-0 w-full mb-6 group">
+                            <input type="tel" pattern="[0-9]{10}" name="phone" id="phone" class="block w-full px-0 py-2 text-base font-medium duration-500 bg-transparent border-0 border-b-2 appearance-none laptop:text-xl text-darkParasol border-midParasol focus:border-midParasol focus:outline-none focus:ring-0 peer" placeholder="" required />
+
+                            <label for="phone" class="absolute small:text-base text-darkParasol duration-500 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:left-0 peer-focus:text-midParasol peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6 appearance-none">Your phone number (10 digits):</label>
+                        </div>
+
+                        <!-- MENSAJE -->
+                        <div class="relative z-0 w-full mb-6 group">
+                            <label for="message" class="block mb-2 text-base duration-500 appearance-none text-darkParasol">Message:</label>
+
+                            <textarea type="text" name="message" id="message" rows="6" class="block w-full p-3 duration-500 bg-white border-2 rounded-md appearance-none text-offBlack laptop:text-xl font-Manrope border-midParasol focus:ring-offset-midParasol focus:border-darkParasol" placeholder="Please, let us know any question you may have. Thanks!" required></textarea>
+                        </div>
+
+                        <!-- SEND BOTÓN -->
+                        <button type="submit" class="flex justify-center w-1/2 px-6 py-2 mx-auto text-xl font-semibold duration-500 rounded-lg laptop:mt-10 laptop:px-8 laptop:py-3 laptop:text-2xl font-barlow active:bg-darkParasol bg-midParasol hover:bg-darkParasol text-offWhite focus:bg-darkParasol hover:drop-shadow-md laptop:hover:translate-y-1">
+                            Enviar
+                        </button>
+                    </form>
+                </section>
+            </div>
+            <!-- END FORM -->
+
+            <!-- END CONTACT -->
 
         </section>
-        <!-- END GALLERY -->
     </main>
 
     <footer class="bottom-0 flex flex-col items-center justify-center w-full px-8 py-10 text-center hd:text-left hd:py-8 bg-darkParasol">
