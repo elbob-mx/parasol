@@ -1515,6 +1515,10 @@ video {
     border-top-right-radius: 0px;
   }
 
+  .hd\:border-t-2 {
+    border-top-width: 2px;
+  }
+
   .hd\:p-14 {
     padding: 3.5rem;
   }
@@ -1637,8 +1641,16 @@ video {
     line-height: 2;
   }
 
+  .hover\:hd\:border-t-8:hover {
+    border-top-width: 8px;
+  }
+
   .group:hover .group-hover\:hd\:top-1\/4 {
     top: 25%;
+  }
+
+  .group:hover .group-hover\:hd\:border-t-8 {
+    border-top-width: 8px;
   }
 
   .group:hover .group-hover\:hd\:bg-tealParasol {
