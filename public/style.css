@@ -1449,6 +1449,10 @@ video {
     width: fit-content;
   }
 
+  .hd\:w-3\/4 {
+    width: 75%;
+  }
+
   .hd\:columns-4 {
     -moz-columns: 4;
          columns: 4;
